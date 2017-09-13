@@ -1,0 +1,1 @@
+/usr/bin/c++     -Wno-deprecated -g    CMakeFiles/improved_tricp.dir/main.cpp.o  -o improved_tricp -rdynamic 

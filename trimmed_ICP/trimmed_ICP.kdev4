@@ -1,0 +1,4 @@
+[Project]
+Name=trimmed_ICP
+Manager=KDevCMakeManager
+VersionControl=

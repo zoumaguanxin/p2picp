@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/improvedTrICP.dir/improvedTrICP.cpp.o CMakeFiles/improvedTrICP.dir/main.cpp.o  -o improvedTrICP -rdynamic -lQtCore -lQtGui 

@@ -1,0 +1,54 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00,\x00v\x00a\x00n\x00i\x00l\x00l\x00a\x00_\x00c\x00o\x00m\x00b\x00i\x00n\x00e\x00_\x00 \x00p\x00i\x00c\x00k\x00y)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index=0
+ProjectRootRelative=./
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=file:///home/shaoan/projects/vanilla_combine_%20picky/build
+Build Type=Debug
+CMake Binary=file:///usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=file:///usr/local
+
+[Launch]
+Launch Configurations=Launch Configuration 0,Launch Configuration 1
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=vcpslam
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00,\x00v\x00a\x00n\x00i\x00l\x00l\x00a\x00_\x00c\x00o\x00m\x00b\x00i\x00n\x00e\x00_\x00 \x00p\x00i\x00c\x00k\x00y\x00\x00\x00\x0e\x00v\x00c\x00p\x00s\x00l\x00a\x00m)
+Dependency Action=Build
+EnvironmentGroup=default
+Executable=file:///home/shaoan/projects/vanilla_combine_%20picky/
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=vanilla_combine_ picky,vcpslam
+Use External Terminal=false
+Working Directory=
+isExecutable=false
+
+[Launch][Launch Configuration 1]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=vcpslam
+Type=Native Application
+
+[Launch][Launch Configuration 1][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00,\x00v\x00a\x00n\x00i\x00l\x00l\x00a\x00_\x00c\x00o\x00m\x00b\x00i\x00n\x00e\x00_\x00 \x00p\x00i\x00c\x00k\x00y\x00\x00\x00\x0e\x00v\x00c\x00p\x00s\x00l\x00a\x00m)
+Dependency Action=Build
+EnvironmentGroup=default
+Executable=file:///home/shaoan/projects/vanilla_combine_%20picky/
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=vanilla_combine_ picky,vcpslam
+Use External Terminal=false
+Working Directory=
+isExecutable=false

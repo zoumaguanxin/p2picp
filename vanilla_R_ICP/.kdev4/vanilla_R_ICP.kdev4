@@ -1,0 +1,70 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x1a\x00v\x00a\x00n\x00i\x00l\x00l\x00a\x00_\x00R\x00_\x00I\x00C\x00P)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index=0
+ProjectRootRelative=./
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=file:///home/shaoan/projects/vanilla_R_ICP/build
+Build Type=Debug
+CMake Binary=file:///usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=file:///usr/local
+
+[Launch]
+Launch Configurations=Launch Configuration 0,Launch Configuration 1,Launch Configuration 2
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=VR_ICP
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x1a\x00v\x00a\x00n\x00i\x00l\x00l\x00a\x00_\x00R\x00_\x00I\x00C\x00P\x00\x00\x00\x0c\x00V\x00R\x00_\x00I\x00C\x00P)
+Dependency Action=Build
+EnvironmentGroup=default
+Executable=file:///home/shaoan/projects/vanilla_R_ICP/
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=vanilla_R_ICP,VR_ICP
+Use External Terminal=false
+Working Directory=
+isExecutable=false
+
+[Launch][Launch Configuration 1]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=VR_ICP
+Type=Native Application
+
+[Launch][Launch Configuration 1][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x1a\x00v\x00a\x00n\x00i\x00l\x00l\x00a\x00_\x00R\x00_\x00I\x00C\x00P\x00\x00\x00\x0c\x00V\x00R\x00_\x00I\x00C\x00P)
+Dependency Action=Build
+EnvironmentGroup=default
+Executable=file:///home/shaoan/projects/vanilla_R_ICP/
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=vanilla_R_ICP,VR_ICP
+Use External Terminal=false
+Working Directory=
+isExecutable=false
+
+[Launch][Launch Configuration 2]
+Configured Launch Modes=execute
+Configured Launchers=scriptAppLauncher
+Name=py
+Type=Script Application
+
+[Launch][Launch Configuration 2][Data]
+Arguments=
+EnvironmentGroup=default
+Executable=file:///home/shaoan/projects/vanilla_R_ICP/ploterror.py
+Execute on Remote Host=false
+Interpreter=
+Output Filtering Mode=0
+Remote Host=
+Working Directory=
